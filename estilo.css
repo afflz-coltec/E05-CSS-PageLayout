@@ -1,0 +1,39 @@
+
+header {
+  background-color: #5EDCE2;
+  font-family: arial;
+	font-size: 22px;
+	color: white;
+	padding: 3%;
+	margin: -10px -10px 2% -10px;
+}
+header h1{
+	margin: 0px;
+}
+body {
+    	background-color: #7D9BD3;
+}
+
+#mainpanel {
+	margin: 2.5% auto;
+	width: 80%;
+	border: thick solid darkblue;
+	background-color: #008DFF;
+	border-radius: 20px;
+}
+.tipslot {
+		width : 15%;
+		font-family: calibri;
+		font-weight: bolder;
+		float: left;
+		margin: 2.5%;
+		padding: 2%;
+		border: medium solid darkblue;
+		background-color: #00C9FF;
+		border-radius: inherit
+}
+.tipslot:hover{
+	border: medium solid black;
+	color: white;
+	background-image: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/018/062/2fa4810.jpg);
+}
