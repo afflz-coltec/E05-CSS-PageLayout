@@ -7,48 +7,44 @@ header {
 	padding: 3%;
 	margin: -10px -10px 2% -10px;
 }
+
+body {
+  background-image: url('http://thelicia.16mb.com/wp-content/uploads/2015/10/IMG-20150809-WA0006.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+}
+
 header h1{
 	margin: 0px;
 }
-body {
-    	background-color: #7D9BD3;
-}
-.col_3, .col_1, .col_6{
-  float: left;
-  padding: 1%;
-}
-.col_1{
-width: 6%;
-}
-.col_2{
-	width: 14%;
-}
-.col_3{
-	width: 22%;
-}
-.col_6{
-	width: 46%;
-}
+
 #mainpanel {
 	margin: 2.5% auto;
-	border: thick solid darkblue;
-	background-color: #008DFF;
+	width: 80%;
+	border: thick solid #32cd32;
+	background-color: black;
 	border-radius: 20px;
 }
 .tipslot {
-		width : 15%;
-		font-family: calibri;
+		width : 7.5%;
+    height:
+		font-family: arial;
 		font-weight: bolder;
 		float: left;
 		margin: 2.5%;
 		padding: 2%;
-		text-align: center;
-		border: medium solid darkblue;
-		background-color: #00C9FF;
+		border: medium solid #32cd32;
+    -webkit-transition: width 2s, height 2s;
+    transition: width 2s, height 2s;
+		background-color: darkgreen;
 		border-radius: inherit
 }
 .tipslot:hover{
-	border: medium solid black;
+  opacity: 0.6;
+
+  width: 15%;
+  margin-left: 0%;
+  margin-right: 0%;
 	color: white;
-	background-image: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/018/062/2fa4810.jpg);
 }
